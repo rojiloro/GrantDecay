@@ -27,3 +27,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   access log and the report keys.
 - Deterministic JSON report with a fixed key order.
 
+## [0.9.0] - 2024-09-17
+
+### Added
+
+- A second pass over the access log that separates never-seen principals from
