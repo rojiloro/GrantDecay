@@ -63,3 +63,4 @@ def is_conclusive(window: Window, min_days: int = DEFAULT_MIN_DAYS) -> bool:
     A window shorter than ``min_days`` is inconclusive: grantdecay will not label
     permissions as unused from it.
     """
+    return window.length_days >= min_days
