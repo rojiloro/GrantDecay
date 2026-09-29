@@ -10,6 +10,32 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Rule tables are being reorganised for the next patch.
 - The report schema is being reviewed for the next minor.
 
+## [5.0.0] - 2026-09-14
+
+### Added
+
+- A `--summary` line printing only the four counts, for dashboards.
+
+## [4.2.0] - 2026-09-13
+
+### Changed
+
+- The `surface` table is grouped by role; per-principal expansion moves behind
+  `--per-principal`.
+
+## [3.2.0] - 2026-08-08
+
+### Added
+
+- Per-role decay curve data in the JSON report.
+
+## [2.0.0] - 2026-08-03
+
+### Added
+
+- The report carries a `window` block with start, end and length in days.
+- Fixtures for the short-window refusal.
+
 ## [1.0.1] - 2026-06-23
 
 ### Fixed
