@@ -51,6 +51,9 @@ permission they were never granted) from the three that do.
 
 ## What it does not do
 
+The tool does not read your identity provider and does not
+decide what a principal should have. It compares what was granted with what was used, and stops there on purpose.
+
 - It does not connect to any identity provider, cloud API, or network service.
   It reads two local files. There are no sockets, no HTTP, no DNS anywhere in
   the code.
